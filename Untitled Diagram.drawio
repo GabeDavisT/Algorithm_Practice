@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="ouPPqVYWVj_6R3psdxhQ">
-    <mxGraphModel>
+    <mxGraphModel dx="730" dy="1187" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oabWI8DTtVUbQuIUZGR3-3" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221" y="-68" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oabWI8DTtVUbQuIUZGR3-4" value="Home" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="171.5" y="45" width="147" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="oabWI8DTtVUbQuIUZGR3-6" value="Overview&lt;div&gt;Link to login&lt;/div&gt;&lt;div&gt;Link to Registration&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="oabWI8DTtVUbQuIUZGR3-4">
+          <mxGeometry x="4.5" y="26" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oabWI8DTtVUbQuIUZGR3-5" value="Registration" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="175" width="179" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="oabWI8DTtVUbQuIUZGR3-8" value="Fields for User info.&lt;div&gt;Consent for Data Usage&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="oabWI8DTtVUbQuIUZGR3-5">
+          <mxGeometry y="27" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oabWI8DTtVUbQuIUZGR3-7" value="Login" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="175" width="139" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="oabWI8DTtVUbQuIUZGR3-9" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="oabWI8DTtVUbQuIUZGR3-7">
+          <mxGeometry x="15" y="29" width="47" height="31" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
