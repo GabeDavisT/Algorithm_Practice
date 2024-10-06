@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="ouPPqVYWVj_6R3psdxhQ">
-    <mxGraphModel dx="723" dy="1179" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="739" dy="1179" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,11 +25,46 @@
         <mxCell id="oabWI8DTtVUbQuIUZGR3-9" value="Username fields&lt;div&gt;forgot password&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="oabWI8DTtVUbQuIUZGR3-7" vertex="1">
           <mxGeometry x="-2" y="31" width="134" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-1" value="User Profile" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="82" y="324" width="139" height="98" as="geometry" />
+        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-1" value="Database" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="324" width="323" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Rm-EXwJDXYBnDl4J9TMp-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="Rm-EXwJDXYBnDl4J9TMp-1">
           <mxGeometry x="15" y="29" width="47" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-4" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_Wireless.svg;imageBackground=none;" vertex="1" parent="1">
+          <mxGeometry x="751" y="235.9" width="99.31" height="101.2" as="geometry" />
+        </mxCell>
+        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;verticalAlign=top;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=unity;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="919" y="235.9" width="107.4" height="107.4" as="geometry" />
+        </mxCell>
+        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-10" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="240.05" width="130" height="91.7" as="geometry" />
+        </mxCell>
+        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-11" value="Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="Rm-EXwJDXYBnDl4J9TMp-10">
+          <mxGeometry width="62" height="68" relative="1" as="geometry">
+            <mxPoint x="5" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="575" y="235.9" width="108" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1031" y="289.1" as="sourcePoint" />
+            <mxPoint x="1090" y="289.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="856" y="289.1" as="sourcePoint" />
+            <mxPoint x="914" y="289.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rm-EXwJDXYBnDl4J9TMp-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="286" as="sourcePoint" />
+            <mxPoint x="748" y="286" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
